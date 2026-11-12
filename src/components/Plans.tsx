@@ -36,8 +36,17 @@ export default function Plans() {
       className="p-8"
     >
       <div className="max-w-[520px] mx-auto text-center">
-        <h2 className="text-2xl font-bold text-[var(--color-verde-vivo)] mb-4">Agora escolha como você quer preparar seu Natal! 🎄</h2>
-        <p className="text-[var(--color-texto-secundario)] mb-10 leading-relaxed">Do essencial ao passo a passo completo. Escolha o que combina com você!</p>
+        <motion.div
+          initial={{ opacity: 0, y: 12 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.4 }}
+        >
+          <h2 className="text-2xl font-bold text-[var(--color-verde-vivo)] mb-3">Agora escolha como você quer preparar seu Natal! 🎄</h2>
+          <p className="text-sm text-[var(--color-texto-secundario)] mb-10 leading-relaxed">
+            Você já viu como pode ser sua ceia. Agora escolha o guia ideal para você e comece a planejar um <span className="text-[#C82127] font-semibold">Natal lindo</span>, sem complicação e respeitando seu orçamento. ❤️
+          </p>
+        </motion.div>
         
         {/* Básico */}
         <motion.div 
