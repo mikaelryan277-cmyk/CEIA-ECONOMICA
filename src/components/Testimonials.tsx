@@ -38,15 +38,9 @@ export default function Testimonials() {
           viewport={{ once: true }}
           transition={{ duration: 0.4 }}
         >
-          <span className="inline-block text-[#C82127] text-[10px] font-bold tracking-widest uppercase bg-[#F8E5E5] px-3 py-1 rounded-full mb-3">
-            Prévia ilustrativa dos depoimentos
-          </span>
-          <h2 className="text-2xl font-bold text-[#1F7A4C] mb-3 leading-tight">
-            "Quem disse que uma ceia bonita precisa ser complicada? ❤️"
+          <h2 className="text-2xl font-bold text-[#1F7A4C] mb-8 leading-tight">
+            O que nossas clientes estão dizendo
           </h2>
-          <p className="text-[#4E5B55] text-sm mb-8">
-            "Veja exemplos de experiências que queremos proporcionar com o nosso guia."
-          </p>
         </motion.div>
 
         <div className="space-y-4 text-left">
