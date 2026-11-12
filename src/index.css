@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap');
+
+@theme {
+  --color-fundo: #FFF8EE;
+  --color-verde-vivo: #1F7A4C;
+  --color-verde-escuro: #145236;
+  --color-vermelho-principal: #C82127;
+  --color-vermelho-escuro: #A9181D;
+  --color-dourado: #E7BE56;
+  --color-texto-principal: #1F2A24;
+  --color-texto-secundario: #4E5B55;
+  --color-branco: #FFFFFF;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-fundo);
+  color: var(--color-texto-principal);
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(-10px) translateX(0);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.8;
+  }
+  85% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(380px) translateX(15px);
+    opacity: 0;
+  }
+}

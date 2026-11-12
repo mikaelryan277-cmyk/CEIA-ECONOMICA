@@ -1,0 +1,6 @@
+{
+  "name": "Ceia de Natal Econômica",
+  "description": "Landing page para ebook de ceia de natal econômica.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
